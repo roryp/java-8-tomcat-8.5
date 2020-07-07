@@ -1,25 +1,25 @@
 {
-	"name": "Java 8 & Tomcat 8.5",
-	"dockerFile": "Dockerfile",
-
-	// Set *default* container specific settings.json values on container create.
-	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash",
-		"java.home": "/docker-java-home"
+  "name": "JHipster",
+  "image": "jdubois/jdubois-codespaces",
+  "settings": {
+	 "terminal.integrated.shell.linux": "/bin/bash"
 	},
-	
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [
-		"vscjava.vscode-java-pack",
-		"adashen.vscode-tomcat"
-	]
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "java -version",
-
-	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
-	// "remoteUser": "vscode"
+  "forwardPorts": [8080, 9000],
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.azurecli",
+    "Pivotal.vscode-boot-dev-pack",
+    "Pivotal.vscode-spring-boot",
+    "redhat.java",
+    "redhat.vscode-yaml",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "vscjava.vscode-java-debug",
+    "vscjava.vscode-java-dependency",
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-java-test",
+    "vscjava.vscode-maven",
+    "vscjava.vscode-spring-boot-dashboard",
+    "vscjava.vscode-spring-initializr"
+  ]
 }
