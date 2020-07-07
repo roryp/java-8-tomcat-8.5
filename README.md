@@ -1,7 +1,5 @@
 # Java 8 & Tomcat 8.5
 
-[Create in VScode Codespaces](https://online.visualstudio.com/environments/new?name=Learn%20Java&repo=roryp/java-8-tomcat-8.5)
-
 ## Summary
 
 *Develop and run Java applications in Tomcat Server. Includes Tomcat 8.5, JDK 8, Maven build tools.*
